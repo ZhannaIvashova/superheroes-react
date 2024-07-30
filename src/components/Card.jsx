@@ -1,6 +1,6 @@
 import Rating from "./Rating"
 
-function Card(props) {
+const Card = (props) => {
   return (
       <div className="card">
         <h2>{props.name}</h2>
